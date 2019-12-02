@@ -1,0 +1,51 @@
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    eTag="W/&quot;19b9-eRiKOlXIYRz9x0H6R4ezqHbRiME&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/virtual/Admins/api/v1/query"
+    postCharset="" postType="1" recordedResponseCode="200"
+    recordedResponseTime="720" responseSize="6585"
+    serverUid="prometheus" slaProfileEnabled="false"
+    uid="e066426d-66d0-4cb7-8358-de3abfe0f6a6" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@prometheus@monitor/%resources%/recorded-responses/res_cust_52597222-29e1-4421-a7c4-a00477c37f06.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@prometheus@monitor/%resources%/recorded-requests/req_cust_e066426d-66d0-4cb7-8358-de3abfe0f6a6.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="4" extractTypeAdv="0" extractTypeSimple="4"
+        jsonpath="$.data.result[*]" matchNumber="-1" matchNumberAdv="1"
+        matchNumberSimple="-1" name="vectors"
+        refererUid="e066426d-66d0-4cb7-8358-de3abfe0f6a6" regExp="(.*)"
+        regExpAdv="" setDefaultValue="true" startsWithSimple=""
+        template="$1$" templateAdv="$1$"
+        uid="a7919051-28d8-4613-8399-4a601bad34dd" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="query"
+        recordRawValue="" separator="="
+        value="container_memory_usage_bytes{container=&quot;POD&quot;, namespace=&quot;lsm-pf1&quot;, pod=~&quot;ps-.*&quot;}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="time"
+        recordRawValue="" separator="=" value="1574679564.896" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="_"
+        recordRawValue="" separator="=" value="1574679556645" valueMode="USE_VALUE"/>
+    <responseHeaders>HTTP/1.1 200 OK
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+_mockiato-is-live-backend: false
+Content-Type: application/json; charset=utf-8
+Mockiato-RRPair-Label: default
+Content-Length: 6585
+ETag: W/"19b9-eRiKOlXIYRz9x0H6R4ezqHbRiME"
+Set-Cookie: connect.sid=s%3AEZSah6Xtbdr9V1ONv_d-SWRDUerGnTHb.ZBGJYryjBUius4Hnvs9i5AOEODWIeN21y13JdRE7bz0; Path=/; HttpOnly
+Vary: Accept-Encoding
+Date: Mon, 02 Dec 2019 18:37:19 GMT
+Connection: keep-alive</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

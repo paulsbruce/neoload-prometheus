@@ -1,0 +1,4 @@
+GET http://localhost:8080/virtual/Admins/api/v1/query?query=container_memory_usage_bytes%7Bcontainer%3D%22POD%22%2C%20namespace%3D%22lsm-pf1%22%2C%20pod%3D%7E%22ps-.*%22%7D&time=1574679564.896&_=1574679556645 HTTP/1.1
+User-Agent: Jetty/9.3.7.v20160115NeotysEdition.47
+Host: localhost:8080
+
