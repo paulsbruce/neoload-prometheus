@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=prometheus_monitoring
+project.version=7.0
+project.original.version=7.0
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.1.0
+project.id=f591a11c-f13d-404c-ab82-5c548800cff4
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/paulsbruce/neoload-prometheus.git
